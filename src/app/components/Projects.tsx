@@ -6,7 +6,7 @@ const projects = [
     description:
       "A full-stack e-commerce platform featuring authentication, cart, checkout, and admin management.",
     tech: ["ASP.NET Core", "C#", "SQL", "Bootstrap"],
-    github: "https://github.com/ProtoTypee7",
+    github: "https://github.com/ProtoTypee7/Stitch",
     live: "",
   },
   {
@@ -23,13 +23,13 @@ const projects = [
       "Personal portfolio built with Next.js and Tailwind CSS, focused on clean design and performance.",
     tech: ["Next.js", "TypeScript", "Tailwind"],
     github: "https://github.com/ProtoTypee7/portfolio",
-    live: "",
+    live: "https://portfolio-sand-xi-89.vercel.app/",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="py-36 px-6 md:px-20">
+    <section id="projects" className="py-36 px-6 md:px-20">
       
       <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-purple-400 mb-20 text-center">
         Projects

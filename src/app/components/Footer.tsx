@@ -13,7 +13,7 @@ export default function Footer() {
         
         
         <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Aabid Najar. All rights reserved.
         </p>
 
         
@@ -22,7 +22,7 @@ export default function Footer() {
           <FooterIcon href="https://wa.me/9103560135" icon={<FaWhatsapp />} />
           <FooterIcon href="https://github.com/ProtoTypee7" icon={<FaGithub />} />
           <FooterIcon href="https://linkedin.com/in/aabid-najar-852b9234a" icon={<FaLinkedin />} />
-          <FooterIcon href="mailto:aabidbilalnajar@gmail.com.com" icon={<MdEmail />} />
+          <FooterIcon href="mailto:aabidbilalnajar@gmail.com" icon={<MdEmail />} />
         </div>
       </div>
     </footer>

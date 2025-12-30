@@ -23,7 +23,7 @@ const education = [
 
 export default function Education() {
   return (
-    <section className="py-36 px-6 md:px-20">
+    <section id="education" className="py-36 px-6 md:px-20">
       
       <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-purple-400 mb-20 text-center">
         Education

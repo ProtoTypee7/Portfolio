@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BackgroundBlobs from "./components/BackgroundBlobs";
+import ScrollIndicator from "./components/ScrollIndicator";
 
 
 import { Inter } from "next/font/google";
@@ -35,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-black text-white`}>
-
+<ScrollIndicator />
   <Navbar />
   <BackgroundBlobs />
   {children}

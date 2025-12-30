@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Hero() {
   return (
-    <section
+    <section id="home"
       className="relative overflow-hidden flex flex-col items-center text-center
                  min-h-[95vh] px-6 pt-50
 "
