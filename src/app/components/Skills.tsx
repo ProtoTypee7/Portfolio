@@ -17,6 +17,7 @@ import {
   SiRadixui,
   SiVercel,
   SiRender,
+  SiRailway ,
   SiMongodb,
 } from "react-icons/si";
 
@@ -65,7 +66,7 @@ const skills = [
     items: [
       { name: "Vercel", icon: SiVercel },
       { name: "Render", icon: SiRender },
-      { name: "EmailJS", icon: MdEmail },
+     { name: "Railway", icon: SiRailway  },
     ],
   },
   {

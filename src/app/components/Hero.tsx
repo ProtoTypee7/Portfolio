@@ -57,14 +57,18 @@ export default function Hero() {
       </div>
 
       
-      <button
-        className="mt-12 px-8 py-3.5
-                   bg-white text-black
-                   rounded-full text-base font-medium
-                   hover:scale-105 transition"
-      >
-        View Resume
-      </button>
+    <a
+  href="/Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-12 inline-block px-8 py-3.5
+             bg-white text-black
+             rounded-full text-base font-medium
+             hover:scale-105 transition"
+>
+  View Resume
+</a>
+
     </section>
   );
 }
